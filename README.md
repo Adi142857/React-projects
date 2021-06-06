@@ -31,4 +31,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### [Live Site](https://adi-chatapp.netlify.app/)
 
-![Chat Application](https://github.com/Adi142857/Chat-app-/blob/master/src/Se.PNG)
+![Chat Application](![Se](https://user-images.githubusercontent.com/65461420/120930691-fe4da080-c70b-11eb-86da-895afa56f326.PNG)
+)
