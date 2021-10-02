@@ -3,24 +3,29 @@
       Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
       Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     letter-spacing: 0.5px;
+    
+    --white: rgb(240, 240, 240);
+    --grey: #cabcdc;
+    --darkgrey: #595959;
+    --purple: #3b2a50;
   }
   
   .ce-chat-list {
-    background-color: rgb(240, 240, 240) !important;
+    background-color: var(--white) !important;
   }
   
   .ce-chats-container {
-    background-color: rgb(240, 240, 240) !important;
+    background-color: var(--white) !important;
   }
   
   .ce-active-chat-card {
-    background-color: #cabcdc !important;
-    border: 4px solid #cabcdc !important;
+    background-color: var(--grey) !important;
+    border: 4px solid var(--grey) !important;
     border-radius: 0px !important;
   }
   
   .ce-chat-subtitle-text {
-    color: #595959 !important;
+    color: var(--darkgrey) !important;
   }
   
   .ce-chat-form-container {
@@ -45,17 +50,17 @@
   }
   
   .ce-settings {
-    background-color: rgb(240, 240, 240) !important;
+    background-color: var(--white) !important;
   }
   
   .ce-autocomplete-input {
     border-radius: 6px !important;
-    border: 1px solid #3b2a50 !important;
+    border: 1px solid var(--purple) !important;
   }
   
   .ce-autocomplete-options {
     border-radius: 6px !important;
-    border: 1px solid #3b2a50 !important;
+    border: 1px solid var(--purple) !important;
     background-color: white !important;
   }
   
@@ -163,7 +168,7 @@
   .message-form {
     overflow: hidden;
     border-radius: 6px;
-    border: 1px solid #3b2a50;
+    border: 1px solid var(--purple);
     background-color: white;
   }
   
