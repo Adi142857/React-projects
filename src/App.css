@@ -8,6 +8,8 @@
     --grey: #cabcdc;
     --darkgrey: #595959;
     --purple: #3b2a50;
+    margin: 0;
+    padding: 0;
   }
   
   .ce-chat-list {
