@@ -1,0 +1,3 @@
+terminal-one: yarn && yarn dev
+tabs: ['src/App.jsx', 'src/Tours.jsx', 'src/Tour.jsx']
+live-reload-browser: false
