@@ -1,0 +1,296 @@
+/* App.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.form-group label {
+  margin-right: 8px;
+}
+
+.form-group select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  appearance: none;
+  background: url('data:image/svg+xml;utf8,<svg fill="black" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>')
+    no-repeat right 8px center;
+  background-size: 16px 16px;
+  cursor: pointer;
+}
+/* DeleteModal.css */
+.delete-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-modal-content {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  text-align: center;
+}
+
+.delete-modal-content h3 {
+  margin-top: 0;
+}
+
+.delete-modal-content p {
+  margin-bottom: 20px;
+}
+
+.delete-modal-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.delete-modal-actions button {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+  margin: 0 5px;
+}
+
+.delete-modal-actions button.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.delete-modal-actions button.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.delete-modal-actions button svg {
+  margin-right: 5px;
+}
+
+
+.form-group select::-ms-expand {
+  display: none;
+}
+
+.form-group select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Add rounded border around age */
+.age-border {
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* Add rounded border around gender */
+.gender-border {
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* Add rounded border around country */
+.country-border {
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.accordion {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.accordion:hover {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  padding: 15px;
+  background-color: #007bff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.content {
+  padding: 15px;
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.content img {
+  max-width: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 4px solid #007bff;
+}
+
+.cont-1 {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 70%;
+  border: 2px solid #ccc;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.user-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cont-2 {
+  flex: 0.4;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cont-2 div:not(:last-child) {
+  margin-right: 10px;
+}
+
+.age-border {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.gender-border {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* App.css */
+/* ... previous CSS rules ... */
+
+.content p {
+  margin: 0; /* Remove default margins for paragraphs inside .content */
+}
+
+.cont-3 textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+/* App.css */
+/* ... previous CSS rules ... */
+
+.edit-actions button {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #607465;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.edit-actions button:hover {
+  background-color: #218838;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.button-container button {
+  margin-left: 10px;
+}
+
+/* Add responsive layout for mobile devices */
+@media (max-width: 600px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .cont-2 {
+    flex: 1;
+    margin-bottom: 0;
+  }
+
+  .edit-actions {
+    justify-content: space-between;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.button-container button {
+  margin-left: 10px;
+}
+
+/* Add responsive layout for mobile devices */
+@media (max-width: 600px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .cont-2 {
+    flex: 1;
+    margin-bottom: 0;
+  }
+
+  .edit-actions {
+    justify-content: space-between;
+  }
+}
